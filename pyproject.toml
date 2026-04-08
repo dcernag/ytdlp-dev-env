@@ -1,0 +1,15 @@
+[project]
+name = "python-dev"
+version = "0.1.0"
+description = "Python dev environment with yt-dlp"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp[default]",
+]
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
