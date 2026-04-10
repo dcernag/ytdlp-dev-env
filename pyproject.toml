@@ -1,5 +1,5 @@
 [project]
-name = "python-dev"
+name = "ytdlp-dev-env"
 version = "0.1.0"
 description = "Python dev environment with yt-dlp"
 requires-python = ">=3.10"
